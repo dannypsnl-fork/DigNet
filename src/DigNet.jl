@@ -7,8 +7,7 @@ struct Var
 end
 
 function Func(f)
-    forward = input -> Var(f(input.data))
-    return forward
+    input -> Var(f(input.data))
 end
 
 end # module
