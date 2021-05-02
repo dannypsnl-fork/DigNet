@@ -2,3 +2,6 @@ name = "DigNet"
 uuid = "1b6db027-6785-4508-8839-3c066e5bc48a"
 authors = ["Lîm Tsú-thuàn <dannypsnl@gmail.com>"]
 version = "0.1.0"
+
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
