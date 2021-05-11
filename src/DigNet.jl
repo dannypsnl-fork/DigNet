@@ -4,6 +4,8 @@ export Var, Func
 
 struct Var
     data
+    grad
+    Var(data) = new(data, nothing)
 end
 
 function Func(f)
